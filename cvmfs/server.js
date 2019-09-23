@@ -17,10 +17,10 @@ app.use(function (req, res, next) {
     next();
 });
 
-const port = process.env.PORT
+const port = process.env.OPENSHIFT_NODEJS_PORT
 app.listen(port, () => `Server running on port ${port}`);
 
-app.get(process.env.API, async (req, res) => {
+app.get(process.env.OPENSHIFT_NODEJS_API, async (req, res) => {
     let repositoryName = req.query.name;
     let repositoryWebsite = req.query.website
 
