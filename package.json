@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon --exec babel-node ./cvmfs/server.js",
+    "start": "babel-node ./cvmfs/server.js",
     "server": "nodemon --exec babel-node ./cvmfs/server.js",
     "test": "mocha --require @babel/register ./test/test.js"
   },
