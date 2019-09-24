@@ -5,8 +5,8 @@
     "test": "mocha --require @babel/register ./test/test.js"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
     "@babel/node": "^7.5.5",
     "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/plugin-transform-strict-mode": "^7.2.0",
@@ -16,7 +16,6 @@
     "puppeteer": "^1.4.0"
   },
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "chai": "^4.2.0",
     "concurrently": "^4.1.2",
     "dotenv": "^8.1.0",
