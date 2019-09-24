@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
     next();
 });
 
-const port = process.env.OPENSHIFT_NODEJS_PORT
+const port = 5000
 app.listen(port, () => `Server running on port ${port}`);
 
 app.get(process.env.OPENSHIFT_NODEJS_API, async (req, res) => {
