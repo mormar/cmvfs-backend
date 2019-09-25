@@ -4,6 +4,7 @@
     "server": "nodemon --exec babel-node ./cvmfs/server.js",
     "test": "mocha --require @babel/register ./test/test.js"
   },
+  "main": "./cvmfs/server.js",
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
