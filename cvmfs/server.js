@@ -17,8 +17,8 @@ app.use(function (req, res, next) {
     next();
 });
 
-const port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-const server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
+const port = process.env.OPENSHIFT_NODEJS_PORT
+const server_ip_address = process.env.OPENSHIFT_NODEJS_IP
 app.listen(port, () => `Server running on port ${port}`);
 
 app.listen(port, server_ip_address, function() {
