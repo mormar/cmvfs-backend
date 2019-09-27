@@ -1,5 +1,5 @@
-var express = require('express');
-var path = require('path');
+import express from 'express';
+import path from 'path';
 import { getJSONfromRpository } from './cvmfs/cvmfs';
 require('dotenv').config();
 
