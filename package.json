@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "PORT=8080 node ./bin/www",
+    "start": "PORT=8080 babel-node ./bin/www",
     "server": "nodemon --exec babel-node ./cvmfs/server.js",
     "test": "mocha --require @babel/register ./test/test.js"
   },
