@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../cvmfs/cvmfs.js');
+var app = require('../app.js');
 var debug = require('debug')('cvmfs-node:server');
 var http = require('http');
 
